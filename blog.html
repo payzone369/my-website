@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>UvaKamp najbolje mobilne kućice na Jadranu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b1e454ec3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/2.png"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">POČETNA</a></li>
+                    <li><a href="about.html">O NAMA</a></li>
+                    <li><a href="course.html">SMJEŠTAJ</a></li>
+                    <li><a href="blog.html">DESTINACIJA</a></li>
+                    <li><a href="contact.html">KONTAKT</a></li>
+                </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+    <h1>Bit ćete oduševljeni našom destinacijom</h1>
+            
+</section>
+        
+<!--------- Blog page content ----------->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/island-of-krk-0.jpg">
+            <h2>Ovo bi vam se moglo posebno svidjeti:</h2>
+            <p>-vrhunski položaj u sjeni hrastova uz more u Njivicama</p>
+            <br>
+            <p>-širok izbor prostranih parcela i holiday homeova</p>
+            <br>
+            <p>-šljunčana plaža s prirodnom hladovinom</p>
+            <br>
+            <p>-dječji bazen s toboganima</p>
+            <br>
+            <p>-Aminess animacija za djecu i odrasle</p>
+            <br>
+            <p>-tri moderno opremljena sanitarna čvora</p>
+            
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            
+            </div>
+        
+        </div>
+        <div class="blog-right">
+            <h3>Kategorije</h3>
+            <div>
+                <span>Smještaj</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Restorani i barovi</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Nivice</span>
+                <span>35</span>
+            </div>
+            <div>
+                <span>Krk</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Plaže</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Izleti</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Posebne ponude</span>
+                <span>30</span>
+            </div>
+        
+        </div>
+    
+    </div>
+
+</section>
+        
+
+
+<!---------- Footer -------->  
+<section class="footer">
+    <h4>O nama</h4>
+    <p>Kućice Uvanović - toliko će vam biti dobro da nas nikada nećete zaboraviti</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Mislav Uvanović</p>
+    
+</section>
+        
+        
+<!------Javascript for Toggle Menu------>
+   <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+   </script> 
+    
+</body>
+</html>
